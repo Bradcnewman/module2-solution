@@ -1,0 +1,67 @@
+#title {
+  font-size: 175%;
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+    font-family:  Cursive, Lucida;
+    font-weight: bold;
+} 
+
+/* Box containers and title boxes*/
+
+#mainbox-chk {
+  position: relative; border: 1px solid black; padding-top: 30px; margin: 11px; width: 31%; background-color: lightgrey; float : left
+}
+
+.menu-box-chk {
+  width: 125px;   position: absolute;   top: 0px;   right: 0px;   border: 1px solid black;   text-align: center; background-color: rgb(243, 235, 128);
+}
+
+#mainbox-bf {
+  position: relative; border: 1px solid black; padding-top: 30px; margin: 11px; width: 31%; background-color: lightgrey; float : left
+}
+
+.menu-box-bf {
+  width: 125px;   position: absolute;   top: 0px;   right: 0px;   border: 1px solid black;   text-align: center; background-color: rgb(243, 136, 128);
+}
+
+#mainbox-shi {
+  position: relative; border: 1px solid black; padding-top: 30px; margin: 11px; width: 31%; background-color: lightgrey; float : left
+}
+
+.menu-box-shi {
+  width: 125px;   position: absolute;   top: 0px;   right: 0px;   border: 1px solid black;   text-align: center; background-color: rgb(184, 243, 128);
+}
+
+/* Text Content styling */
+#content {
+    padding: 10px;
+    clear: right;
+}
+
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+#mainbox-chk {
+Width:47%;
+}
+#mainbox-bf {
+Width:47%;
+}
+#mainbox-shi {
+Width:97%;
+}
+}
+/* Small devices only */
+@media (min-width: 50px) and (max-width: 767px) {
+#mainbox-chk {
+Width:97%;
+}
+#mainbox-bf {
+Width:97%;
+}
+#mainbox-shi {
+Width:97%;
+}
+}
